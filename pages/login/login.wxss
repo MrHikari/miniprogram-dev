@@ -1,1 +1,5 @@
 /* pages/login/login.wxss */
+
+.example {
+  color: #0711dd;
+}

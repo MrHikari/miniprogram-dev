@@ -1,7 +1,7 @@
 <!--pages/login/login.wxml-->
 <text>这是一个登陆界面</text>
-<view> {{message}} </view>
-<view wx:for="{{array}}">测试数组类数据渲染： {{item}} </view>
+<view style="color: #07c160;"> {{message}} </view>
+<view class="example" wx:for="{{array}}">测试数组类数据渲染： {{item}} </view>
 <view wx:if="{{view == 'A'}}"> A </view>
 <view wx:elif="{{view == 'B'}}"> B </view>
 <view wx:else="{{view == 'C'}}"> C </view>
