@@ -64,5 +64,9 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  clickEvent: function(event) {
+    console.log('ClickEvent------->', event);
   }
 })

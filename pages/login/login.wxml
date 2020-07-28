@@ -5,3 +5,4 @@
 <view wx:if="{{view == 'A'}}"> A </view>
 <view wx:elif="{{view == 'B'}}"> B </view>
 <view wx:else="{{view == 'C'}}"> C </view>
+<view id="eventTest" data-hi="WeChat" bindtap="clickEvent"> Click me! </view>
