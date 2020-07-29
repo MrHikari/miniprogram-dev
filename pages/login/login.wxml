@@ -6,3 +6,7 @@
 <view wx:elif="{{view == 'B'}}"> B </view>
 <view wx:else="{{view == 'C'}}"> C </view>
 <view id="eventTest" data-hi="WeChat" bindtap="clickEvent"> Click me! </view>
+<tagname property="value">
+Content goes here ...
+</tagname>
+<icon type="success" size="24"></icon>
