@@ -9,4 +9,4 @@
 <tagname property="value">
 Content goes here ...
 </tagname>
-<icon type="success" size="24"></icon>
+<icon hidden type="success" size="24"></icon>
