@@ -10,3 +10,5 @@
 Content goes here ...
 </tagname>
 <icon hidden type="success" size="24"></icon>
+<input value="{{oldValue}}" />
+<input model:value="{{inputValue}}" />
