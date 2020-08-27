@@ -9,6 +9,10 @@
 <tagname property="value">
 Content goes here ...
 </tagname>
-<icon hidden type="success" size="24"></icon>
-<input value="{{oldValue}}" />
-<input model:value="{{inputValue}}" />
+<view style="display:flex;">请输入：</view>
+<view style="display:flex;">
+  <input type="text" bindinput="handleInput" />
+</view>
+<view>
+  展示输入：{{displayInput}}
+</view>

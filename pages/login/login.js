@@ -7,7 +7,15 @@ Page({
   data: {
     message: '测试参数渲染!',
     array: ['x', 1, '22'],
-    view: 'C'
+    view: 'C',
+    displayInput: '',
+  },
+
+  handleInput(e) {
+    console.log('handle-------->');
+    console.log('e-event-事件源------>', e);
+    console.log('输入值-e.detail.value----->', e.detail.value);
+    this.setData({ displayInput: e.detail.value });
   },
 
   /**
