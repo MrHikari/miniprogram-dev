@@ -17,4 +17,10 @@ Content goes here ...
   展示输入：{{displayInput}}
 </view>
 
-<image mode="bottom" src="//i0.hdslb.com/bfs/archive/e62b6b095ef38dfb742687f11e4b570dde420b5d.png" />
+<image mode="bottom" lazy-load src="//i0.hdslb.com/bfs/archive/e62b6b095ef38dfb742687f11e4b570dde420b5d.png" />
+
+<swiper>
+  <swiper-item>1号轮播图</swiper-item>
+  <swiper-item>2号轮播图</swiper-item>
+  <swiper-item>3号轮播图</swiper-item>
+</swiper>
