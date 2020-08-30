@@ -1,5 +1,6 @@
 <!--pages/login/login.wxml-->
 <text>这是一个登陆界面</text>
+<navigator url="/pages/home/home"> 首页 </navigator>
 <view style="color: #07c160;"> {{message}} </view>
 <view class="example" wx:for="{{array}}">测试数组类数据渲染： {{item}} </view>
 <view wx:if="{{view == 'A'}}"> A </view>
@@ -19,7 +20,7 @@ Content goes here ...
 
 <image mode="bottom" lazy-load src="//i0.hdslb.com/bfs/archive/e62b6b095ef38dfb742687f11e4b570dde420b5d.png" />
 
-<swiper>
+<swiper autoplay interval="1000" indicator-dots>
   <swiper-item>1号轮播图</swiper-item>
   <swiper-item>2号轮播图</swiper-item>
   <swiper-item>3号轮播图</swiper-item>

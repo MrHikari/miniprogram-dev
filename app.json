@@ -18,8 +18,7 @@
     },{
       "pagePath": "pages/login/login",
       "text": "登录"
-    }
-  ]
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
