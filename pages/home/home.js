@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    html: '<a href="javascript:;" class="fixed-btn fixed-btn__feedback"><div class="fixed-btn__inner"><span class="fixed-btn__icon"></span> <span class="fixed-btn__text">反馈</span></div></a>'
   },
 
   /**
