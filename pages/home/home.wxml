@@ -3,3 +3,8 @@
 <view> 首页 </view>
 
 <rich-text nodes="{{html}}"></rich-text>
+
+<button type="primary"> primary 按钮 </button>
+<button size="mini" type="default"> default mini 按钮 </button>
+<button size="mini" type="warn" plain> warn mini plain 按钮 </button>
+<button size="mini" type="warn" loading> warn mini loading 按钮 </button>
