@@ -1,8 +1,10 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
 <view> 首页 </view>
 
 <rich-text nodes="{{html}}"></rich-text>
+
+<icon type="success" size="20"></icon>
+<icon type="warn" size="40" color="#222211"></icon>
 
 <button type="primary"> primary 按钮 </button>
 <button size="mini" type="default"> default mini 按钮 </button>
