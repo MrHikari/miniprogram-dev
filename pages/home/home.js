@@ -5,7 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-    html: '<a href="javascript:;" class="fixed-btn fixed-btn__feedback"><div class="fixed-btn__inner"><span class="fixed-btn__icon"></span> <span class="fixed-btn__text">反馈</span></div></a>'
+    html: '<a><div><span></span> <span>反馈</span></div></a>',
+    tabsData: [
+      {
+        id: 0,
+        title: '分页1',
+        isActive: true,
+      },
+      {
+        id: 1,
+        title: '分页2',
+        isActive: false,
+      },
+      {
+        id: 2,
+        title: '分页3',
+        isActive: false,
+      },
+    ],
+  },
+
+  handleItemTap(e) {
+    console.log('xxxxx----->', e);
+    const {index} = e.currentTarget.dataset;
+    let {tabsData} = this.data;
+    console.log('tabsData----->', tabsData);
+    tabsData.forEach((oItem,iIndex)=> iIndex === index?oItem.isActive=true:oItem.isActive=false)
+    this.setData({tabsData});
   },
 
   /**
