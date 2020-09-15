@@ -58,6 +58,7 @@
 		"miniprogram": {
 			"current": -1,
 			"list": []
-		}
+		},
+		"checkSiteMap": false
 	}
 }
