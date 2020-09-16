@@ -33,4 +33,4 @@
 <checkbox value="单选框" color="#6effa0" checked>单选框</checkbox>
 <checkbox value="单选框" checked>单选框</checkbox>
 
-<ButtonC></ButtonC>
+<ButtonC type="primary" color="red"></ButtonC>
