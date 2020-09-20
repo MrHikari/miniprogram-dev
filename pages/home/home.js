@@ -35,7 +35,7 @@ Page({
   },
 
   onClick(e) {
-    console.log('button--e-->', e);
+    console.log('child-params->', e.detail.params);
   },
 
   /**
